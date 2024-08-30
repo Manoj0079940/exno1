@@ -83,6 +83,7 @@ import numpy as np
 import scipy.stats as stats
 dataset=pd.read_csv("heights.csv")
 dataset
+
 ![image](https://github.com/user-attachments/assets/2ea6c0d3-9d13-428c-933a-c898286b6d2b)
 
 ## df = pd.read_csv("heights.csv")
@@ -91,6 +92,7 @@ q2 = df['height'].quantile(0.5)
 q3 = df['height'].quantile(0.75)
 iqr = q3-q1
 iqr
+
 ![image](https://github.com/user-attachments/assets/2241e403-e0ed-4066-b975-fc6d5b4b7180)
 
 ## low = q1 - 1.5*iqr
